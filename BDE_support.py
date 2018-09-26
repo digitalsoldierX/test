@@ -74,7 +74,7 @@ def init(top, gui, *args, **kwargs):
 	root = top
 	w.lblOutput.configure(text="Login bitte...")
 	w.lblVersion.configure(text=version)
-	#print(system_name())
+	print(system_name())
 	print("ping Server...")
 	if ping(sql_host):		#wenn Server online automatisch verbinden
 		Login_AP()
