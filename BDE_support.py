@@ -3,6 +3,8 @@
 #
 # Betriebsdatenerfassung by D. Junkherr @ 7/18
 # v0.1 : Erstversion
+# v0.2 : neues Auflösung für 7"-LCD
+
 
 import sys
 import time
@@ -31,7 +33,7 @@ Fehler=False
 Connected=False
 continue_reading = True
 ap=""
-version="v0.1"
+version="v0.2"
 sql_user='Daniel'
 sql_pass='mitarbeiter01'
 sql_host='192.168.188.21'
